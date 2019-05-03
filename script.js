@@ -14,9 +14,9 @@ window.addEventListener("load", ()=>{
 
     function addEvents(ele){
         ele.addEventListener("mousedown", clicker_mouse_down);
-        full_screen_click.addEventListener("ontouchstart", clicker_mouse_down);
+        full_screen_click.addEventListener("touchstart", clicker_mouse_down);
         ele.addEventListener("mouseup", clicker_mouse_up);
-        ele.addEventListener("ontouchend", clicker_mouse_up);
+        ele.addEventListener("touchend", clicker_mouse_up);
     }
 });
 
